@@ -27,9 +27,6 @@ body {
     @media only screen and (max-width: 767px) {
         transform: translate(-51%, -48%);
     }
-    @media only screen and (max-width: 468px) {
-        transform: translate(-51%, -109%);
-    }
 }
 
 .section-heading {
@@ -39,6 +36,9 @@ body {
     font-weight: 500;
     color: white;
     font-size: 45px;
+    @media only screen and (max-width:767px){
+        font-size: 42px;
+    }
 }
 
 #container {
@@ -47,16 +47,18 @@ body {
         font-size: 20px;
         color: white;
         text-align: center;
-        @media only screen and (max-width: 767px) {
-            margin: 0 0 0 0;
-            line-height: 1.2rem;
+        @media only screen and (max-width:767px){
+            margin: 77% 0 0 0;
+            padding: 2rem 0 0 0;
+            font-size: 18px;
         }
     }
     img {
         max-width: 100%;
         margin-top: -2rem;
-        @media only screen and (max-width: 468px) {
-            margin-top: 1rem;
+        @media only screen and (max-width:767px) {
+            max-width: 137%;
+            transform: translate(-12%, -14%);
             position: absolute;
         }
     }
