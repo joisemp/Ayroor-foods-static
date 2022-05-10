@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
 body {
-  background-image: url("bg.png");
+  background-image: url("bg.jpg");
 }
 
 #overlay {
@@ -12,7 +12,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #a38667fd;
+  background-color: #af7324ec;
   z-index: 2;
 }
 
