@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Serif:wght@700&display=swap");
 body {
   background-image: url("bg.jpg");
 }
@@ -12,12 +12,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #fc4a1a;
+  background: #c05523f5;
   /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#f7b633ef), to(#c05523));
-  background: linear-gradient(to right, #f7b633ef, #c05523);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   z-index: 2;
 }
 
@@ -49,12 +45,12 @@ body {
 }
 
 .section-heading {
-  font-family: "Katibeh", cursive;
+  font-family: 'Noto Serif', serif;
   text-align: center;
   margin: 0 0 2rem 0;
-  font-weight: 800;
+  font-weight: 500;
   color: white;
-  font-size: 62px;
+  font-size: 45px;
 }
 
 #container .text {
