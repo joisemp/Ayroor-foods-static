@@ -37,7 +37,7 @@ body {
     color: white;
     font-size: 45px;
     @media only screen and (max-width:767px){
-        font-size: 42px;
+        font-size: 32px;
     }
 }
 
@@ -48,18 +48,17 @@ body {
         color: white;
         text-align: center;
         @media only screen and (max-width:767px){
-            margin: 77% 0 0 0;
+            margin: -11% 0 0 0;
             padding: 2rem 0 0 0;
-            font-size: 18px;
+            font-size: 16px;
+            line-height: 12px;
         }
     }
     img {
-        max-width: 100%;
+        width: 100%;
         margin-top: -2rem;
-        @media only screen and (max-width:767px) {
-            max-width: 137%;
-            transform: translate(-12%, -14%);
-            position: absolute;
+        @media only screen and (max-width:767px){
+           min-width: 105%;
         }
     }
 }
